@@ -87,6 +87,7 @@ namespace ATMSystemAPI.Controllers
         {
             var users = Common.Users;
             return Ok(users);
+
         }
     }
 }
