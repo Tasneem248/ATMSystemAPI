@@ -2,12 +2,21 @@
 using System.Linq;
 using System.Collections.Generic;
 using ATMSystemAPI.Models;
+using System.Diagnostics;
+using ATMSystemAPI.Data;
 
 namespace ATMSystemAPI.Helpers
 {
     public static class UserFileHelper
     {
         private static string filePath = "users.txt";
+
+        public static void LoadUsers()
+        {
+            // 1. Kullanıcıları Dosyadan Oku
+            // 2. Kullanıcıları Common sınıfındaki Users nesnesine kopyala
+            Debug.WriteLine("Kullanıcılar yüklendi");
+        }
 
         public static List<User> ReadUsersFromFile()
         {

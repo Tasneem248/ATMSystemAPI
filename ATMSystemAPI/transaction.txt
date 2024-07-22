@@ -1,0 +1,2 @@
+﻿UserId:1 no'lu hesap UserId:2 no'lu hesaba 200 tl para gönderdi.
+UserId:1 no'lu hesap 200₺ para çekti.
