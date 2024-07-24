@@ -14,7 +14,10 @@ namespace ATMSystemAPI.Helpers
         public static void LoadUsers()
         {
             // 1. Kullanıcıları Dosyadan Oku
+            var users = ReadUsersFromFile();
             // 2. Kullanıcıları Common sınıfındaki Users nesnesine kopyala
+            Common.Users.Clear();
+            Common.Users.AddRange(users);
             Debug.WriteLine("Kullanıcılar yüklendi");
         }
 

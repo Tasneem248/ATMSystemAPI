@@ -1,2 +1,2 @@
-id:1,tasnim,userid:tasnim,balance:1200
-id:2,userid:ela,balance:800
+id:1,userid:tasnim,balance:1200
+id:2,userid:ela,balance:850.00

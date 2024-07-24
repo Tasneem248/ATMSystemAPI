@@ -1,2 +1,1 @@
-﻿UserId:1 no'lu hesap UserId:2 no'lu hesaba 200 tl para gönderdi.
-UserId:1 no'lu hesap 200₺ para çekti.
+Id:2,AccountId:2,Amount:50.00,Date:7/22/2024 4:16:27 PM,Type:Withdrawal

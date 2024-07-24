@@ -11,7 +11,7 @@ namespace ATMSystemAPI.Data
         //};
         public static List<User> Users = new List<User>();
 
-        public static List<Account> Accounts = new List<Account>();
+       // public static List<Account> Accounts = new List<Account>();
         //{
         //    new Account { Id = 1, UserId = 1, Balance = 1000 },
         //    new Account { Id = 2, UserId = 2, Balance = 2000 }
